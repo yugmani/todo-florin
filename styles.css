@@ -9,6 +9,11 @@
 body {
   background-color: #f5f5f5;
   font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 h1 {
@@ -16,12 +21,13 @@ h1 {
   text-align: center;
   font-size: 4rem;
   opacity: 0.4;
+  margin-bottom: 3rem;
 }
 
 form {
   width: 400px;
   max-width: 100%;
-  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 input {
@@ -49,9 +55,20 @@ input::placeholder {
   font-size: 1.5rem;
   padding: 1rem 2rem;
   cursor: pointer;
+  transition: all 1s ease-in-out;
 }
 
 .todos li.completed {
   color: #b5b5b5;
   text-decoration: line-through;
+}
+
+small {
+  display: block;
+  margin-bottom: 1rem;
+  color: #b5b5b5;
+}
+
+.note {
+  margin-top: 3rem;
 }
