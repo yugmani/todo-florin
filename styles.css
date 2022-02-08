@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  color: #444;
 }
 
 h1 {
@@ -37,6 +38,7 @@ input {
   width: 100%;
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #444;
 }
 
 input::placeholder {
